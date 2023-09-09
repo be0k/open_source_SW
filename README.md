@@ -55,8 +55,8 @@ git push (origin main)
 * `git init` : 현재 디렉토리를 git이 관리하는 working directory로 설정하고 그 안에 repository 생성
 
 * `git add`
-  > git add <file-name> : 수정사항이 있는 특정 파일을 staging area에 올리기
-  > git add <directory-name> : 해당 directory 내에서 수정사항이 있는 모든 파일들을 staging area에 올리기
+  > git add <file-name> : 수정사항이 있는 특정 파일을 staging area에 올리기 <br>
+  > git add <directory-name> : 해당 directory 내에서 수정사항이 있는 모든 파일들을 staging area에 올리기<br>
   > git add . : working directory 내에 있는 수정사항이 있는 모든 파일들을 staging area에 올리기
 
 * `git reset`
