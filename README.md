@@ -48,8 +48,6 @@ git push (origin main)
 ### Forcing push
 `git push -f origin "BRANCH-NAME"`
 
-###  
-
 
 ## Explaining frequently used code
 * `git init` : 현재 디렉토리를 git이 관리하는 working directory로 설정하고 그 안에 repository 생성
@@ -86,7 +84,9 @@ git push (origin main)
 * `git push`
   > git push : contents of remote repository 를 local repository로 보내기(전제조건 : git push -u)<br>
   > git push -u origin <branch-name> : 로컬 레포지토리의 내용을 처음으로 리모트 레포지토리에 올릴 때 사용
-* `git clone <repository-link>` : github주소에 있는 프로젝트를 내 컴퓨터로 가져오기
+* `git clone`
+  >git clone <repository-link> : github주소에 있는 프로젝트를 내 컴퓨터로 가져오기
+  >git clone --branch <branch-name> <repository-link> : github주소에 있는 프로젝트의 특정 branch에 있는 내용을 내 컴퓨터로 가져오기
 * `git branch`
   > git branch <new-branch-name> : 새로운 branch를 생성<br>
   > git branch -b <existing-branch-name> : 기존에 있던 branch를 삭제
