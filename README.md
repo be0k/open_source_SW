@@ -5,7 +5,7 @@
 ### First step -> ` git init `
 
 #### If you use git first,
-#### ```
+```
 git config user.name 'YOUR-NAME'
 git config user.email 'YOUR-EMAIL'
 ```
