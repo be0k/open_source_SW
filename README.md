@@ -1,7 +1,7 @@
 # temp-repo
 ### This repository will be ref_Git.
 ### If you didn't know info that you want,     
-please `git help <commend-name>` or go https://git-scm.com/docs
+please `git help <command-name>` or go https://git-scm.com/docs
 ### Three areas
 1. Working directory
 2. Stating area
@@ -79,7 +79,7 @@ git push (origin main)
 * `git config`
   > git config user.name <name> : 현재 사용자 아이디를 name 으로 설정<br>
   > git config uesr.email <email> : 현재 사용자 이메일을 email 로 설정<br>
-  > git config alias.<별명> <commend> : 길이가 긴 커맨드에 별명을 붙여서 별명으로 해당 커맨드를 실행할 수 있도록 설정
+  > git config alias.<별명> <command> : 길이가 긴 커맨드에 별명을 붙여서 별명으로 해당 커맨드를 실행할 수 있도록 설정
 * `git diff <id-of-commit A> <id-of-commit B>` : 두 커밋 간의 차이 비교
 * `git tag <tag-name> <commit-id>` : 특정 커밋에 태그를 붙임
 * `git pull` : contents of remote repository 를 local repository로 가져오기
