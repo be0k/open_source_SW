@@ -72,17 +72,26 @@ git push (origin main)
   > git commit -m "MESSEGE" : 현재 staging area에 있는 것들 commit으로 남기기
   > git commit --amend : 최신 커밋을 다시 수정해서 새로운 commit으로 만듬(messege 수정)
 * `git log`
-* `git log --pretty=oneline`
-* `git show`
-* `git commit --amend`
-* `git config alias.`
-* `git diff`
-* `git tag`
-* `git pull`
+  > git log : commit history 출력
+  > git log --pretty=oneline : --pretty 옵션을 사용하면 커밋 히스토리를 다양한 방식으로 출력할 수 있음(더 많은 옵션 -> https://git-scm.com/docs/pretty-formats)
+* `git show <commit-id>` : 특정 commit에서 어떤 변경사항이 있었는지 확인
+* `git config`
+  > git config user.name <name> : 현재 사용자 아이디를 name 으로 설정
+  > git config uesr.email <email> : 현재 사용자 이메일을 email 로 설정
+  > git config alias.<별명> <commend> : 길이가 긴 커맨드에 별명을 붙여서 별명으로 해당 커맨드를 실행할 수 있도록 설정
+* `git diff <id-of-commit A> <id-of-commit B>` : 두 커밋 간의 차이 비교
+* `git tag <tag-name> <commit-id>` : 특정 커밋에 태그를 붙임
+* `git pull` : contents of remote repository 를 local repository로 가져오기
 * `git push`
-* `git clone`
+  > git push : contents of remote repository 를 local repository로 보내기(전제조건 : git push -u)
+  > git push -u origin <branch-name> : 로컬 레포지토리의 내용을 처음으로 리모트 레포지토리에 올릴 때 사용
+* `git clone <repository-link>` : github주소에 있는 프로젝트를 내 컴퓨터로 가져오기
 * `git branch`
-* `git checkout -b`
+  > git branch <new-branch-name> : 새로운 branch를 생성
+  > git branch -b <existing-branch-name> : 기존에 있던 branch를 삭제
+* `git checkout`
+  > git checkout <existing-branch-name> : 지정한 branch로 이동
+  > git checkout -b <new-branch-name> : 새로운 branch를 생성하고 그 branch로 바로 이동
 * `git switch`
 * `git branch -d`
 * `git merge`
