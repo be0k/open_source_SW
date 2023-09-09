@@ -1,6 +1,6 @@
 # temp-repo
 ### This repository will be ref_Git.
-### If you didn't know info that you want,   please `git help <commend-name>` or go https://git-scm.com/docs
+### If you didn't know info that you want,      please `git help <commend-name>` or go https://git-scm.com/docs
 ### Three areas
 1. Working directory
 2. Stating area
