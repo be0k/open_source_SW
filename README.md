@@ -60,8 +60,8 @@ git push (origin main)
   > git add . : working directory 내에 있는 수정사항이 있는 모든 파일들을 staging area에 올리기
 
 * `git reset`
-  > git reset <file-name> : staging area에 올렸던 파일 다시 내리기(git status를 통해 확인)
-  > git reset <option> <commit-id> : option에 따라 작업이 달라짐(deefalut option == --mixed)
+  > git reset <file-name> : staging area에 올렸던 파일 다시 내리기(git status를 통해 확인)<br>
+  > git reset <option> <commit-id> : option에 따라 작업이 달라짐(deefalut option == --mixed)<br>
   > > 1. HEAD가 특정 commit을 가리키도록 이동시킴(--soft)
   > > 2. staging area도 특정 commit처럼 리셋(--mixed)
   > > 3. working directory도 특정 commit처럼 리셋(--hard)
