@@ -85,7 +85,7 @@ git push (origin main)
   > git push : contents of remote repository 를 local repository로 보내기(전제조건 : git push -u)<br>
   > git push -u origin <branch-name> : 로컬 레포지토리의 내용을 처음으로 리모트 레포지토리에 올릴 때 사용
 * `git clone`
-  >git clone <repository-link> : github주소에 있는 프로젝트를 내 컴퓨터로 가져오기
+  >git clone <repository-link> : github주소에 있는 프로젝트를 내 컴퓨터로 가져오기<br>
   >git clone --branch <branch-name> <repository-link> : github주소에 있는 프로젝트의 특정 branch에 있는 내용을 내 컴퓨터로 가져오기
 * `git branch`
   > git branch <new-branch-name> : 새로운 branch를 생성<br>
@@ -104,7 +104,7 @@ git push (origin main)
 * `git rebase <branch-name>` : A, B branch가 있는 상태에서 지금 HEAD가 A branch를 가리킬 때, git rebase B를 실행하면 A, B branch가 분기하는 시점이 된 공통 commit 이후로부터 존재하는 A branch 상의 commit들이 그대로 B branch의 최신 commit 이후로 이어붙여짐(git merge와 같은 효과를 가지지만 commit history가 한 줄로 깔끔하게 된다는 차이점이 있음)
 * `git stash`
   > git stash : 어떤 branch에서 하던 작업을 아직 commit하지 않았는데 다른 branch로 가야하는 상황에서 작업 중이던 내용을 잠깐 저장하고 싶을 때 <br>
-  > git stash list : stash한 list 확인
+  > git stash list : stash한 list 확인<br>
   > git stash apply <commit-id> : 스택 영역에 저장된 가장 최근의(혹은 특정) 작업 내용을 working directory에 적용<br>
   > git stash drop <commit-id> : 스택 영역에 저장된 가장 최근의(혹은 특정) 작업 내용을 working directory에 적용하면서 스택에서 삭제<br>
   > git stash pop <commit-id> : 특정 commit의 내용을 현재 commit에 반영
