@@ -12,7 +12,6 @@ $ pwd
 ```
 
 
-
 - `cd`
 
 change directory
@@ -20,7 +19,6 @@ change directory
 $ cd Desktop
 ~/Desktop $
 ```
-
 
 
 - arguments
@@ -47,7 +45,6 @@ $ cd Desktop
   relative path
 
 
-
 - options
 
   * -l   
@@ -55,7 +52,6 @@ $ cd Desktop
 
   * -lh   
   same as above, but size in units
-
 
 
 - `ls`
@@ -87,7 +83,6 @@ $ ls
 ```
 
 
-
 - `cp`
 
 copy files and directories
@@ -109,7 +104,6 @@ $ cp a.py b.py
 $ ls
 a.py b.py
 ```
-
 
 
 - `mv`
@@ -137,7 +131,6 @@ b.py
 ```
 
 
-
 - `rm`
 
 delete files and directories permantely and irreversevely
@@ -160,7 +153,6 @@ $ ls
 ```
 
 
-
 - mkdir
 
 make a new directory
@@ -171,10 +163,9 @@ folder
 ```
 
 
-
 - Wildcards
 
-  * *    
+  * \*    
   All filenames
   
   * g*   
@@ -187,14 +178,12 @@ folder
   Any filename that begins with the characters "Data" followed by exactly 3 more characters
 
 
-
 - `help`
 
 ```
 $ help <command>
 <explain about command>
 ```
-
 
 
 - `man`
