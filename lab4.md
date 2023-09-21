@@ -153,7 +153,7 @@ $ ls
 ```
 
 ---
-- mkdir
+- `mkdir`
 
 make a new directory
 ```
