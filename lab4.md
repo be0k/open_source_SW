@@ -58,7 +58,13 @@ list files and directories
 List the files in the /bin directory (or any other directory we care to specify)
 
 >ls -l   
-List the files in the working directory in long format
+List the files in the working directory in long format   
+```bash
+$ls -l
+-rw--------------  1me       me        34653          Sep 21 2023         README.md
+```
+-----------------  -------  --------- --------------  -----------------  --------- 
+File permissions   Owner    Group     Size(in bytes)  Modification Time  File Name
 
 >ls -l /etc /bin   
 List the files in the /bin directory and the /etc directory in long format
