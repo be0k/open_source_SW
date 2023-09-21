@@ -1,6 +1,6 @@
 # Lab 4
 ## Linux CLI ( Command Line Interface )
-![Linux](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoftwarelab.org%2Fblog%2Fwhat-is-linux%2F&psig=AOvVaw2ECpxwOFo76NvN4id7YoEP&ust=1695394783210000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDVpfD7u4EDFQAAAAAdAAAAABAF)
+[![Linux](https://softwarelab.org/wp-content/uploads/Linux.jpg)](https://linuxcommand.org)
 ### Shell command
 
 - `pwd`
