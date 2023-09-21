@@ -29,26 +29,26 @@ $ ls
 
 - arguments
   
-* /   
-root
-
-* .
-current directory
-
-* ..
-upper-level directory
-
-* ~
-home of current user
-
-* /
-absolute path
-
-* ./
-relative path
-
-* ../
-relative path
+  * /   
+  root
+  
+  * .   
+  current directory
+  
+  * ..   
+  upper-level directory
+  
+  * ~   
+  home of current user
+  
+  * /   
+  absolute path
+  
+  * ./   
+  relative path
+  
+  * ../   
+  relative path
 
 - cd
 
