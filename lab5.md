@@ -34,7 +34,7 @@ f.pt
 ---
 - `>>`
 
-If it already exists, append output to an extising file.
+If it already exists, append output to an extising file.   
 not exists, create and write to a new file.
 ```
 $ls >> file_list.txt
@@ -67,13 +67,14 @@ d
 
 ---
 - `|`
-- output of previous command to input of next command.
+
+output of previous command to input of next command.
 ```
 $ ls
 a
 c
 d
-$ mkdir a | ls
+$ mkdir b | ls
 a
 b
 c
@@ -117,6 +118,7 @@ total Nk
 
 ---
 - `chmod`
+
 change permissions   
 ```
 $ chmod 612 some_file
@@ -127,6 +129,7 @@ $ chmod 612 some_file
 
 ---
 - `sudo`
+
 If some commands need superuser's privilleges, put "sudo" before the command
 ```
 $ sudo some_command
@@ -141,6 +144,7 @@ root@linuxbox:~#
 
 ---
 - `history`
+
 see previous command history or save it to a text file.
 ```
 # history > history_command.txt
@@ -149,9 +153,10 @@ $ cat history
 
 ---
 In Linux, you can choose CLI-based or GUI-based text editors
-**Name**|**Description**|**Interface|
-vi & vim|The granddaddy of Unix text editors, vi, is infamous for its obtuse user interface. On the bright side, vi is powerful, lightweight, and fast. Learning vi is a Unix rite of passage, since it is universally available on Unix-like systems. On most Linux distributions, an enhanced version of vi called vim is provided in place of vi. vim is a remarkable editor and well worth taking the time to learn it.|command line|
-Emacs|The true giant in the world of text editors is Emacs originally written by Richard Stallman, Emacs contains(or can be made to contain) every feature ever conceived of for a text editor. It should be noted that vi and Emacs fans fight bitter religious wars over which is better.|command line|
-nano|nano is a free clone of the text editor supplied with the pine email program. nano is very easy to use but is very short on features compared to vim and emacs. nano is recommended for first-time users who need a command line editor.|command line|
-gedit|gedit is the editor supplied with the GNOME desktop environment. gedit is easy to use and contains enough features to be a good beginners-level editor.|graphical|
-kwrite|kwrite is the "advanced editor" supplied with KDE. It has syntax highlighting, a helpful feature for programmers and script writers.|graphical|
+
+|**Name**|**Description**|**Interface|
+|vi & vim|The granddaddy of Unix text editors, vi, is infamous for its obtuse user interface. On the bright side, vi is powerful, lightweight, and fast. Learning vi is a Unix rite of passage, since it is universally available on Unix-like systems. On most Linux distributions, an enhanced version of vi called vim is provided in place of vi. vim is a remarkable editor and well worth taking the time to learn it.|command line|
+|Emacs|The true giant in the world of text editors is Emacs originally written by Richard Stallman, Emacs contains(or can be made to contain) every feature ever conceived of for a text editor. It should be noted that vi and Emacs fans fight bitter religious wars over which is better.|command line|
+|nano|nano is a free clone of the text editor supplied with the pine email program. nano is very easy to use but is very short on features compared to vim and emacs. nano is recommended for first-time users who need a command line editor.|command line|
+|gedit|gedit is the editor supplied with the GNOME desktop environment. gedit is easy to use and contains enough features to be a good beginners-level editor.|graphical|
+|kwrite|kwrite is the "advanced editor" supplied with KDE. It has syntax highlighting, a helpful feature for programmers and script writers.|graphical|
