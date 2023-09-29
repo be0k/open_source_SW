@@ -154,7 +154,7 @@ $ cat history
 ---
 In Linux, you can choose CLI-based or GUI-based text editors
 
-|**Name**|**Description**|**Interface|
+|**Name**|**Description**|**Interface**|
 |---|---|---|
 |vi & vim|The granddaddy of Unix text editors, vi, is infamous for its obtuse user interface. On the bright side, vi is powerful, lightweight, and fast. Learning vi is a Unix rite of passage, since it is universally available on Unix-like systems. On most Linux distributions, an enhanced version of vi called vim is provided in place of vi. vim is a remarkable editor and well worth taking the time to learn it.|command line|
 |Emacs|The true giant in the world of text editors is Emacs originally written by Richard Stallman, Emacs contains(or can be made to contain) every feature ever conceived of for a text editor. It should be noted that vi and Emacs fans fight bitter religious wars over which is better.|command line|
